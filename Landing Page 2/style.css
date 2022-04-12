@@ -1,0 +1,287 @@
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+image {
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    background-image: url(images/ExtraHopbg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.header {
+    position: absolute;
+    width: 10%;
+    height: 40px;
+    z-index: 2;
+    display: flex;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.body1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+}
+
+.main {
+    padding-top: 0%;
+    width: 100%;
+    height: 40px;
+    max-width: 100%;
+}
+
+.column {
+    width: 100%;
+    max-width: 600px;
+    display:inline-flex;
+}
+
+.two-columns {
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    top: -50px;
+}
+
+h2 {
+    padding: 25px 20px 12px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    vertical-align: top;
+    text-align: left;   
+}
+h1 {
+    color: black; 
+}
+
+h3 {
+    padding: 0px 20px 12px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    vertical-align: top;
+    text-align: left;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    color: black;
+}
+
+.column-2 {
+    width: 100px;
+    size-adjust: 100px;
+}
+
+.container {
+    top: 60px;
+    max-width: 100%;
+    width: 400px;
+    padding: 6px 0px;
+    border-radius: 5px;
+    background: rgb(70, 70, 70);
+    text-align: left;
+    z-index: 3;
+    position: relative;
+}
+
+.container .title {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+
+form {
+    max-width: 100%;
+    padding: 30px 0px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+}
+
+.form-header {
+    margin-left: 25px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstname {
+    position: relative;
+    left: 20px;
+    top: 0px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.lastname {
+    position: relative;
+    left: 205px;
+    top: -45px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+}
+.email {
+    position: relative;
+    left: -155px;
+    top: 10px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.phone {
+    position: relative;
+    left: 30px;
+    top: -35px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+}
+.address {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.city {
+    position: relative;
+    left: 204px;
+    top: -25px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+}
+.country {
+    position: relative;
+    left: -155px;
+    top: 30px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+
+.state {
+    position: relative;
+    left: 203px;
+    top: -15px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+    width: 95px;
+}
+.zipCode {
+    position: relative;
+    left: 205px;
+    top: -15px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+    width: 60px;
+}
+.company {
+    position: relative;
+    left: 20px;
+    top: -5px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.jobTitle {
+    position: relative;
+    left: 30px;
+    top: -5px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;   
+}
+.companySize {
+    position: relative;
+    left: 30px;
+    top: 5px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.industry {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #555;
+    
+}
+.button{
+    background-color: aquamarine;
+    margin: 20px 25px;
+    border-radius: 6px;
+    height: 25px;   
+}
+.button:hover{
+    background-color: rgb(44, 159, 194);
+    margin: 20px 25px;
+    border-radius: 6px;
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    z-index: 2; 
+    border-top-color: aquamarine;   
+}
